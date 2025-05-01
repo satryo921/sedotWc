@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prabroro</title>
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- link bootstrap end -->
+
+</head>
+<body>
+    <div>
+     <!-- searchNavbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbaar-brand sedot_wc text-white">SEDOT WC</a>
+            <form class="d-flex" role="search"  id="searchForm" onsubmit="searchContent(event)">
+                <input id="searchInput" class= "form-control me-2" type="search" placeholder="search" aria-label="search">
+            <button class="btn btn-outline-success" type="submit">search</button>
+          </form>
+        </div>
+      </nav>
+      <!-- searchNavbar end -->
+
+<!-- navbar shortcut -->
+<div class="container">
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link bg-primary tombolHome" href="index.html" >Home</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+        <!-- navbar shortcut end -->
+
+      <!-- isi caraDandori -->
+      <main class="container mt-4">
+        <h2 class="mb-3 text-center">Dandori Mach I/P </h2>
+        <img src="hobing60.jpg" alt="layarHob" class="hobing_60" />
+        <div class="langkah2">
+          <h3>Langkah-Langkah</h3>
+      </div>
+        <article class="mb-4">
+            <ol>
+                <ol>
+                    <li>Arahkan kursor ke no prog, kemudian ganti sesuai tipe</li>
+                    <li> 
+                        Pastikan angka hobb o.d sama dengan program 23 & 24, dengan cara:
+                        <ol class="sublist" type="1">
+                            <li>Ubah mode memory: on</li>
+                            <li>Tekan prog, cr/ed</li>
+                            <li>Masukan nomor program</li>
+                            <li>Tekan input lalu klik yes</li>
+                            <li>Tekan hobbing, lihat nomor 6 (obd od)</li>
+                            <li>Return sebanyak 2× kemudian yes dan return lagi 2×</li>
+                        </ol>
+                    </li>
+                    <li>Setting Op60<br>
+                        Ubah mode select ke edit. Memory edit: on, klik no program di panel (bukan di layar), pilih program, masukan nomor program. Tekan “no” atau masukan nomor kemudian tekan o srh. Pastikan nomor program di layar sama dengan di panel. Ubah memory edit menjadi off dan mode auto.
+                    </li>
+                    <li>Ubah posisi Z-axis shv g.2 <br> 
+                        Memory: edit, memory edit : on, axis select pilih z. Di halaman “cut” pada nomor 1 ubah nilai sesuai tipe, KALAU BZ100>110 NILAI DIKURANGI 900 (-900), KALAU BZ110>100 NILAI DITAMBAH 900(+900)
+                    </li>
+                    <p><strong>Tambahan! Cara cleaning tool shv g.reverse:</strong><br>
+                        Manual &gt; cutter change &gt; cutter unclamp &gt; lepas tool dan bersihkan.
+                    </p>
+                </ol>
+                
+                
+            </ol>
+        </article>
+    </main>
+    
+      
+
+      <!-- isi caraDandori end -->
+       
+    </div>
+
+<!-- link script bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <!-- link script bootstrap end -->
+<script src="search.js"></script>
+</body>
+</html>
